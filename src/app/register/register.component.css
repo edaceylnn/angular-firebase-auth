@@ -1,0 +1,7 @@
+.card:hover {
+    background-image: radial-gradient(
+      circle 500px at var(--x) var(--y),
+      rgba(159, 136, 172, 0.4) 10%,
+      transparent 100%
+    );
+  }

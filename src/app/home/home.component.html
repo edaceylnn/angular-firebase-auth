@@ -1,0 +1,11 @@
+<div class="flex flex-col p-4">
+    {{ authService.currentUserLogin()?.email }}
+    <button
+      type="submit"
+      class="px-10 py-2 mt-4 bg-red-400 rounded-md text-white w-32"
+      (click)="logout()"
+    >
+      Logout
+    </button>
+  </div>
+  
